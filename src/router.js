@@ -21,6 +21,7 @@ import BoxDeleteItem from "@/components/Box/BoxDeleteItem";
 import SearchItemById from "@/components/Search/SearchItemById";
 import SearchItemByName from "@/components/Search/SearchItemByName";
 import SearchItemByCategory from "@/components/Search/SearchItemByCategory";
+import SearchItemByFullName from "@/components/Search/SearchItemByFullName";
 
 Vue.use(VueRouter);
 
@@ -110,6 +111,10 @@ export default new VueRouter({
         {
             path: '/search/item/category',
             component: SearchItemByCategory
+        },
+        {
+            path: '/search/item/fullname',
+            component: SearchItemByFullName
         }
     ]
 })

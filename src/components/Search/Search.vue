@@ -12,6 +12,9 @@
             <b-row align-h="center" class="p-1">
                 <b-button @click="$router.push('/search/item/category')" block variant="dark" size="lg">Поиск вещей по категории</b-button>
             </b-row>
+        <b-row align-h="center" class="p-1">
+            <b-button @click="$router.push('/search/item/fullname')" block variant="dark" size="lg">Поиск вещей по части имени</b-button>
+        </b-row>
             <b-row align-h="center" class="p-1">
                 <b-button @click="$router.push('/')" block variant="danger" size="lg">Назад</b-button>
             </b-row>
